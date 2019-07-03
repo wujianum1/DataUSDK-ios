@@ -136,7 +136,6 @@ Pod::Spec.new do |spec|
   spec.subspec 'DataU' do |d|{
   	d.vendored_frameworks = 'DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
   	d.frameworks = 'CoreLocation','SystemConfiguration','CoreTelephony'
-  	d.ios.library = 'z','sqlite3'
   }
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
