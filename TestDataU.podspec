@@ -138,8 +138,6 @@ Pod::Spec.new do |spec|
   	d.frameworks = 'SystemConfiguration','CoreLocation'
   end
 
-  spec.dependency = 'DataU'
-
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
