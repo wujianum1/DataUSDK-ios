@@ -133,11 +133,10 @@ Pod::Spec.new do |spec|
   #spec.requires_arc = true
   spec.default_subspec = 'DataU'
 
-  spec.subspec 'DataU' do |d| {
+  spec.subspec 'DataU' do |d| 
   	d.vendored_frameworks = 'DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
   	d.frameworks = 'CoreLocation','SystemConfiguration','CoreTelephony'
   	d.ios.library = 'z','sqlite3'
-  }
   end
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
