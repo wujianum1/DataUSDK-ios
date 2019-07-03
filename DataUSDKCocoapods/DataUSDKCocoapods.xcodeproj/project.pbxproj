@@ -84,7 +84,7 @@
 		A456BE1622CC43DC00F7A330 /* DataUSDKCocoapods */ = {
 			isa = PBXGroup;
 			children = (
-				A456BE8622CC56E900F7A330 /* DataU.framework */,
+				A456BE8822CC7F9C00F7A330 /* DataU */,
 				A456BE1722CC43DC00F7A330 /* AppDelegate.h */,
 				A456BE1822CC43DC00F7A330 /* AppDelegate.m */,
 				A456BE1A22CC43DC00F7A330 /* ViewController.h */,
@@ -105,6 +105,14 @@
 				A456BE3222CC43DE00F7A330 /* Info.plist */,
 			);
 			path = DataUSDKCocoapodsTests;
+			sourceTree = "<group>";
+		};
+		A456BE8822CC7F9C00F7A330 /* DataU */ = {
+			isa = PBXGroup;
+			children = (
+				A456BE8622CC56E900F7A330 /* DataU.framework */,
+			);
+			path = DataU;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

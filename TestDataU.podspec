@@ -94,6 +94,12 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
+  spec.default_subspec = 'DataU'
+
+  spec.subspec 'DataU' do 'd'
+  	d.source_files = 'DataUSDKCocoapods/DataUSDKCocoapods/'
+  end
+
   # spec.public_header_files = "Classes/**/*.h"
 
 
