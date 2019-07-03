@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/wujianum1/DataUSDK-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wujianum1/DataUSDK-ios", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,10 +131,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   #spec.requires_arc = true
-  #spec.default_subspec = 'DataU'
-
-  spec.source_files = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/'
-  spec.vendored_frameworks = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
+  spec.vendored_frameworks = 'DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
