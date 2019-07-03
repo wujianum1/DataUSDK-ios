@@ -134,6 +134,7 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'DataU'
 
   spec.subspec 'DataU' do |d|
+  	d.source = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
   	d.frameworks = 'SystemConfiguration','CoreLocation'
   end
 
