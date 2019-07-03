@@ -14,6 +14,7 @@
 		A456BE2422CC43DE00F7A330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A456BE2222CC43DE00F7A330 /* LaunchScreen.storyboard */; };
 		A456BE2722CC43DE00F7A330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BE2622CC43DE00F7A330 /* main.m */; };
 		A456BE3122CC43DE00F7A330 /* DataUSDKCocoapodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BE3022CC43DE00F7A330 /* DataUSDKCocoapodsTests.m */; };
+		A456BE8722CC56E900F7A330 /* DataU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A456BE8622CC56E900F7A330 /* DataU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A456BE2C22CC43DE00F7A330 /* DataUSDKCocoapodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataUSDKCocoapodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A456BE3022CC43DE00F7A330 /* DataUSDKCocoapodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataUSDKCocoapodsTests.m; sourceTree = "<group>"; };
 		A456BE3222CC43DE00F7A330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A456BE8622CC56E900F7A330 /* DataU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataU.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A456BE8722CC56E900F7A330 /* DataU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		A456BE1622CC43DC00F7A330 /* DataUSDKCocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				A456BE8622CC56E900F7A330 /* DataU.framework */,
 				A456BE1722CC43DC00F7A330 /* AppDelegate.h */,
 				A456BE1822CC43DC00F7A330 /* AppDelegate.m */,
 				A456BE1A22CC43DC00F7A330 /* ViewController.h */,
@@ -365,6 +369,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3JK263Y9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DataUSDKCocoapods",
+				);
 				INFOPLIST_FILE = DataUSDKCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -382,6 +390,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3JK263Y9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DataUSDKCocoapods",
+				);
 				INFOPLIST_FILE = DataUSDKCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
