@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
 
   spec.default_subspec = 'DataU'
 
-  spec.subspec 'DataU' do 'd'
+  spec.subspec 'DataU' do |d|
   	d.vendored_libraries = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/*.framework' 
   end
 
