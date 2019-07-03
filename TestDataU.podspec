@@ -94,11 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  spec.default_subspec = 'DataU'
-
-  spec.subspec 'DataU' do |d|
-  	d.vendored_libraries = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/*.framework' 
-  end
+  spec.dependency = 'DataU'
 
   # spec.public_header_files = "Classes/**/*.h"
 
