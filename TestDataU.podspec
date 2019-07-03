@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -131,12 +131,9 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   #spec.requires_arc = true
-  spec.default_subspec = 'DataU'
+  #spec.default_subspec = 'DataU'
 
-  spec.subspec 'DataU' do |d|
-  	d.vendored_frameworks = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
-  	d.frameworks = 'SystemConfiguration','CoreLocation'
-  end
+  spec.ios.vendored_frameworks = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
