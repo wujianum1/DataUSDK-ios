@@ -133,8 +133,7 @@ Pod::Spec.new do |spec|
   #spec.requires_arc = true
   #spec.default_subspec = 'DataU'
 
-  spec.ios.vendored_frameworks = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
-  spec.dependency = 'DataU'
+  spec.frameworks = 'DataUSDK-ios/DataUSDKCocoapods/DataUSDKCocoapods/DataU/DataU.framework'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
